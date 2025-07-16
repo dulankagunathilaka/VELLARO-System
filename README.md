@@ -1,2 +1,0 @@
-# VELLARO System
-
