@@ -231,7 +231,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Pagination
-        const itemsPerPage = 20;
+        const itemsPerPage = 5;
         const pageCount = Math.ceil(filteredOrders.length / itemsPerPage);
         const currentPage = 1;
         
