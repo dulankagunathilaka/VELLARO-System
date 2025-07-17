@@ -1536,4 +1536,4 @@ document.addEventListener('DOMContentLoaded', function() {
     function saveCategories() {
         localStorage.setItem('vellaroCategories', JSON.stringify(categories));
     }
-});
+}); 
