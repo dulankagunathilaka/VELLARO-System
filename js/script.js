@@ -3,18 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
     let orders = JSON.parse(localStorage.getItem('vellaroOrders')) || [];
     let products = JSON.parse(localStorage.getItem('vellaroProducts')) || [];
     let categories = JSON.parse(localStorage.getItem('vellaroCategories')) || [
-        { id: 1, name: 'Vellaro POLO', price: 1499 },
-        { id: 2, name: 'Vellaro T shirt', price: 1199 },
-        { id: 3, name: 'Vellaro Back Print', price: 1699 },
-        { id: 4, name: 'Crop top', price: 1099 },
-        { id: 5, name: 'Brink T shirt', price: 899 }
+        { id: 1, name: 'Vellaro POLO New', price: 1599 },
+        { id: 2, name: 'Vellaro POLO', price: 1499 },
+        { id: 3, name: 'Vellaro T shirt New', price: 1350 },
+        { id: 4, name: 'Vellaro T shirt', price: 1199 },
+        { id: 5, name: 'Vellaro Back Print', price: 1699 },
+        { id: 6, name: 'Crop top New', price: 1250 },
+        { id: 7, name: 'Crop top', price: 1099 },
+        { id: 8, name: 'Brink T shirt', price: 899 }
     ];
     let colors = JSON.parse(localStorage.getItem('vellaroColors')) || [
         { id: 1, name: 'Black' },
         { id: 2, name: 'White' },
-        { id: 3, name: 'Red' },
-        { id: 4, name: 'Blue' },
-        { id: 5, name: 'Green' }
+        { id: 3, name: 'Navy Blue' },
+        { id: 4, name: 'Sky Blue' },
+        { id: 5, name: 'Apple Green' },
+        { id: 5, name: 'Yellow' },
+        { id: 6, name: 'Peach Orange' }
+
     ];
     const sizes = ['S', 'M', 'L', 'XL', '2XL', '3XL'];
     
